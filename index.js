@@ -17,7 +17,7 @@ require('./src/sockets')(io);
 //routes
 
 //static files
-app.use(express.static(path.join(__dirname + 'public')));
+app.use(express.static('public'));
 //starting server
 server.listen(app.get('port'),() => {
   console.log('server on port ', p, `http://localhost:${p}`);
