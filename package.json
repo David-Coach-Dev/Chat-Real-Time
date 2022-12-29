@@ -1,0 +1,20 @@
+{
+  "name": "pizarra-real-time",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Pizarra en tiempo real.</h1>\r <p align=\"center\">\r   Esta es una aplicación de Pizarra en tiempo real con Http, Express, socketIO y Node.js.\r </p>\r <h1></h1>\r <h2 align=\"center\">Herramientas</h2>\r <br>\r <p align=\"center\">\r   <a href=\"https://nodejs.org/es/\" target=\"_blank\" rel=\"node.js\" >\r   <img src=\"https://nodejs.org/static/images/logo.svg\" alt=\"node.js\" width=\"50\" height=\"50\"/>\r    - node.js</a>\r   <br><br>\r   <a href=\"https://www.npmjs.com/package/nodemon\" target=\"_blank\" rel=\"nodemon.js\">\r   <img src=\"https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png\" alt=\"nodemon.js\" width=\"50\" height=\"50\"/>\r    - nodemon.js</a>\r   <br><br>\r   <a href=\"https://www.npmjs.com/package/express\" target=\"_blank\" rel=\"express.js\">\r   <img src=\"https://i.imgur.com/V1RWR7l.png\" alt=\"express.js\" width=\"50\" height=\"50\"/>\r    - express.js</a>\r <br><br>\r   <a href=\"https://www.npmjs.com/package/dotenv\" target=\"_blank\" rel=\"dotenv.js\">\r   <img src=\"https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.png\" alt=\"dotenv.js\" width=\"50\" height=\"50\"/>\r    - dotenv.js</a>\r   <br><br>\r <a href=\"https://socket.io/\" target=\"_blank\" rel=\"socket.io\">\r   <img src=\"https://socket.io/images/logo-dark.svg\" alt=\"socket.io\" width=\"50\" height=\"50\"/>\r    - socket.io</a>\r   <br><br>\r   <a href=\"https://www.npmjs.com/package/http-server\" target=\"_blank\" rel=\"http-server\">\r   <img src=\"https://i.imgur.com/V1RWR7l.png\" alt=\"http-server\" width=\"50\" height=\"50\"/>\r    - http-server</a>\r </p>\r <h1></h1>\r <h2 align=\"center\">Nota</h2>\r   <p align=\"center\">\r     Recuerde reconstruir los módulos de node con el comando\r   </p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
