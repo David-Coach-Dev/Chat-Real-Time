@@ -19,6 +19,8 @@ message.addEventListener("keypress", function () {
 });
 socket.on("chat:message", function (data) {
   actions.innerHTML = "";
+  username.value = "";
+  message.value = "";
   output.innerHTML += `
     <p>
       <strong>Id: ${data.id}</strong>
